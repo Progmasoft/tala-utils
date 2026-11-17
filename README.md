@@ -3,8 +3,8 @@
 
 # Tala Utils
 
-Tala Utils are the base utilities of TalaOS, in the `tala-utils` package of the core repository: the BSD utilities
-and tools such as `sudo`, as several executables.
+Tala Utils are the base utilities of TalaOS: the BSD utilities and tools such as `sudo`, as several
+executables.
 
 They are written in C11 under the
 [Progmasoft Core C Coding Guidelines](https://github.com/Progmasoft/progmasoft-cpp) and built with BSD Make.
