@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Progmasoft <support@progmasoft.com> -->
+<!-- SPDX-License-Identifier: MIT -->
+
+# Tala Utils
+
+Tala Utils are the base utilities of TalaOS, in the `tala-utils` package of the core repository: the BSD utilities
+and tools such as `sudo`, as several executables.
+
+They are written in C11 under the
+[Progmasoft Core C Coding Guidelines](https://github.com/Progmasoft/progmasoft-cpp) and built with BSD Make.
+
+No code is written yet.
+
+## License
+
+[MIT](LICENSE.txt). Progmasoft's own code is also covered by the [Progmasoft Patent Grant 1.1](PATENTS.md); code
+taken from elsewhere keeps its own license and notices. Participation follows the [Code of Conduct](CODE_OF_CONDUCT.md).
