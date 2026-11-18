@@ -23,8 +23,8 @@ TalaSh reads these files as it starts, in this order:
 TalaSh skips, with a warning, a file that is not owned by the user or by root or that others can write, and it
 ignores `ENV` when it runs set-user-ID or set-group-ID.
 
-The utilities follow Unix in their command lines: options start with one dash, as `-l` or `-c`; there are no GNU-style
-`--long-options`.
+The utilities follow Unix in their command lines: options start with one dash, as `-l`, `-c` or a longer name such
+as `-login`; there are no GNU-style two-dash `--options`.
 
 They are written in C11 under the
 [Progmasoft Core C Coding Guidelines](https://github.com/Progmasoft/progmasoft-cpp) and built with BSD Make.
