@@ -6,6 +6,10 @@
 Tala Utils are the base utilities of TalaOS: the BSD utilities and tools such as `sudo`. The `tala-utils` package
 holds several executables, among them TalaSh.
 
+Their reference is the userland of [OpenBSD](https://www.openbsd.org/): which utilities there are, their options
+and what they do follow OpenBSD's (`bin/`, `sbin/`, `usr.bin/` and `usr.sbin/` of its source tree), and their manual
+pages are the description to match. Where OpenBSD and POSIX.1-2024 disagree, POSIX.1-2024 decides.
+
 TalaSh (`talash`) is the shell: a friendly interactive shell that is compatible with Unix and with the shell of
 [POSIX.1-2024](https://pubs.opengroup.org/onlinepubs/9799919799/) (IEEE Std 1003.1-2024, Issue 8). It has none of
 the extensions of Bash or Zsh. `sh` is a symbolic link to `talash`, and TalaSh is part of this package, not a
