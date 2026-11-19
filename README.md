@@ -35,7 +35,10 @@ as `-login`; there are no GNU-style two-dash `--options`.
 They are written in C11 under the
 [Progmasoft Core C Coding Guidelines](https://github.com/Progmasoft/progmasoft-cpp) and built with BSD Make.
 
-No code is written yet.
+The repository builds several executables, and all of them have the one version in `VERSION`. The code they share
+is in `common/`; the first piece is the command line parser, which reads each executable's options into typed fields
+as described in [docs/architecture.md](docs/architecture.md). Building and testing are in
+[docs/development.md](docs/development.md).
 
 ## License
 
